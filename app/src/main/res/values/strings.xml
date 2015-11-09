@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name" translatable="false">PsychoQuest</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="home_text" translatable="false">PsychoQuest</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="create_experiment">Create a new experiment</string>
+    <string name="experiment_name">Experiment name</string>
+    <string name="number_sessions">Number of sessions in the experiment</string>
+    <string name="choose_questionnaires">Choose the questionnaires the participant will have to fill in</string>
+    <string name="validate">Validate</string>
+
+    <string name="sam_title" translatable="false">Self-Assessment Manikin</string>
+    <string name="nasatlx_title" translatable="false">NASA-TLX</string>
+    <string name="err_msg_create_experiment">You must insert a name, a number of sessions and choose at least one questionnaire</string>
+
+    <string name="create_participant">Create a new participant</string>
+    <string name="participant_name">Participant\'s name</string>
+
+    <string name="select_participant_experiment">Select an experiment and a participant</string>
+    <string name="select_participant">Select a participant</string>
+    <string name="select_experiment">Select an experiment</string>
+
+    <string name="valence">Valence</string>
+    <string name="arousal">Arousal</string>
+    <string name="valence_desc">Select the level of valence (happiness) you\'ve experienced during the experiment. From top to bottom: the less happy to the more happy.</string>
+    <string name="arousal_desc">Select the level of arousal you\'ve experienced during the experiment. From top to bottom: the less aroused to the more aroused.</string>
+    <string name="err_msg_select_arousal_valence">You must select an arousal and a valence picture!"</string>
+
+    <string name="scale_low">Low</string>
+    <string name="scale_high">High</string>
+
+    <string name="nasa_mental">Mental Demand</string>
+    <string name="nasa_physical">Physical Demand</string>
+    <string name="nasa_performance">Performance</string>
+    <string name="nasa_effort">Effort</string>
+    <string name="nasa_frustration">Frustration</string>
+    <string name="nasa_temporal">Temporal Demand</string>
+
+    <string name="nasa_mental_desc">How much mental and perceptual activity was required (e.g., thinking, deciding, calculating, remembering, looking, searching, etc.)? Was the task easy or demanding, simple or complex, exacting or forgiving?</string>
+    <string name="nasa_physical_desc">How much physical activity was required (e.g.. pushing, pulling, turning, controlling, activating, etc.)? Was the task easy or demanding, slow or brisk, slack or strenuous, restful or laborious?</string>
+    <string name="nasa_performance_desc">How successful do you think you were in accomplishing the goals of the task set by the experimenter (or yourself)? How satisfied were you with your performance in accomplishing these goals?</string>
+    <string name="nasa_effort_desc">How hard did you have to work (mentally and physically) to accomplish your level of performance?</string>
+    <string name="nasa_frustration_desc">How insecure, discouraged, irritated, stressed and annoyed versus secure, gratified, content, relaxed and complacent did you feel during the task?</string>
+    <string name="nasa_temporal_desc">How much time pressure did you feel due to the rate or pace at which the tasks or task elements occurred? Was the pace slow and leisurely or rapid and frantic?</string>
+
+    <string name="session_terminated">Thank you! Your data have been successfully recorded. You can give the tablet back to the experimenter.</string>
+
+    <string name="save_on_dropbox">Save on DropBox</string>
+    <string name="participant_finished_experiment">The participant has finished their experiment.</string>
+    <string name="experiment_result">Experiment Results</string>
+    <string name="save_on_sd">Save on SD</string>
+    <string name="save_sd_successfull" />
+    <string name="saved_sc_successfull">Result file successfully saved on the sd card  (/mnt/sdcard/PsychoQuest/experiment_results/</string>
+    <string name="dropbox_integration">Dropbox integration</string>
+    <string name="dropbox_integration_explanation">In order to save your data on Dropbox, you will need to have a Dropbox account. If you use the Dropbox integration tools,  you will be able to save each participant\'s result on Dropbox and to back up the whole database as well (SQLite).</string>
+    <string name="enable_dropbox_integration">Enable Dropbox integration</string>
+    <string name="err_msg_dropbox_not_enabled">Error ! You must enable the Dropbox integration in order to save your results.</string>
+    <string name="saved_dropbox_successfull">Result file successfully saved on your Dropbox!</string>
+    <string name="participant_results">Participant results</string>
+    <string name="experiment">Experiment:</string>
+    <string name="participant">Participant:</string>
+    <string name="backup_db_sc">Backup DB on SC</string>
+    <string name="backup_db_dropbox">Backup DB on Dopbox</string>
+    <string name="drop_db">Drop Database (dangerous!!)</string>
+    <string name="backup_db">Backup the database</string>
+    <string name="backup_db_sucess">DB Backed up successfully to:</string>
+
+
+</resources>

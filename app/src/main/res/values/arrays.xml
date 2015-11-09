@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="nav_drawer_elements">
+        <item>Start Experiment</item>
+        <item>Add Experiment</item>
+        <item>Add Participant</item>
+        <item>See Results</item>
+        <item>Backup</item>
+        <item>Dropbox</item>
+    </string-array>
+
+    <string-array name="nav_drawer_elements_pic">
+        <item>@drawable/ic_action_play</item>
+        <item>@drawable/ic_action_new</item>
+        <item>@drawable/ic_action_new</item>
+        <item>@drawable/ic_action_search</item>
+        <item>@drawable/ic_action_sd_storage</item>
+        <item>@drawable/ic_dropbox</item>
+    </string-array>
+</resources>

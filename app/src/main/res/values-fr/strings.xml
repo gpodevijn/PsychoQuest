@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PsychoQuest</string>
+    <string name="arousal">Activation</string>
+    <string name="arousal_desc">Sélectionnez ci-dessous votre degré d\'activation émotionnelle ressentie. De haut en bas: aucune activation - forte activation.</string>
+    <string name="choose_questionnaires">Choisissez les questionnaires que votre participant doit remplir</string>
+    <string name="create_experiment">Créez une nouvelle expérience</string>
+    <string name="create_participant">Créez un nouveau participant</string>
+    <string name="drawer_close">Fermer</string>
+    <string name="drawer_open">Ouvrir</string>
+    <string name="err_msg_create_experiment">Vous devez insérer un nom, un nombre de sessions et choisir au moins un questionnaire</string>
+    <string name="experiment_name">Titre de l\'expérience</string>
+    <string name="number_sessions">Nombre de session dans l\'expérience</string>
+    <string name="participant_name">Nom du participant</string>
+    <string name="select_experiment">Choisissez une expérience</string>
+    <string name="select_participant">Choisissez un participant</string>
+    <string name="select_participant_experiment">Choisissez une expérience et un participant</string>
+    <string name="valence">Plaisir</string>
+    <string name="valence_desc">Sélectionnez sur l\'échelle ci-dessous votre degré de plaisir - déplaisir ressenti durant l\'expérience. De haut en bas: déplaisir - plaisir.</string>
+    <string name="validate">Valider</string>
+    <string name="err_msg_select_arousal_valence">Vous devez sélectionner un élément dans l\'échelle du plaisir et de l\'activation !</string>
+    <string name="session_terminated">Merci ! Vos données ont été enregistrées avec succès. Vous pouvez rendre la tablet à l\'expérimentateur.</string>
+</resources>
