@@ -1,5 +1,5 @@
 
-app/src/main/res/values/dropbox_privatekey.xml
+app/src/main/res/values/dropbox_keys.xml
 *.iml
 # Built application files
 *.apk
