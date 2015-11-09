@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity
     private CharSequence mTitle;
     private CharSequence mDrawerTitle;
 
-    final static private String APP_KEY = "26kt3406y37o37b";
+    static private String APP_KEY = "26kt3406y37o37b";
     static private String APP_SECRET;
     public DropboxAPI<AndroidAuthSession> mDBApi;
 
@@ -294,6 +294,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void initDropbox() {
+        APP_KEY = getResources().getString(R.string.dropbox_public_key);
         APP_SECRET = getResources().getString(R.string.dropbox_private_key);
         AppKeyPair appKeys = new AppKeyPair(APP_KEY, APP_SECRET);
         AndroidAuthSession session = new AndroidAuthSession(appKeys);
@@ -315,6 +316,7 @@ public class MainActivity extends AppCompatActivity
         if (!isIntegrationEnabled) {
             return;
         }
+        APP_KEY = getResources().getString(R.string.dropbox_public_key);
         APP_SECRET = getResources().getString(R.string.dropbox_private_key);
         AppKeyPair appKeys = new AppKeyPair(APP_KEY, APP_SECRET);
         AndroidAuthSession session = new AndroidAuthSession(appKeys);
