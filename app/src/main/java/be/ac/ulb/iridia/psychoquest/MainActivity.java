@@ -315,6 +315,10 @@ public class MainActivity extends AppCompatActivity
         if (!isIntegrationEnabled) {
             return;
         }
+        APP_SECRET = getResources().getString(R.string.dropbox_private_key);
+        AppKeyPair appKeys = new AppKeyPair(APP_KEY, APP_SECRET);
+        AndroidAuthSession session = new AndroidAuthSession(appKeys);
+        mDBApi = new DropboxAPI<AndroidAuthSession>(session);
         if (mDBApi.getSession().authenticationSuccessful()) {
             try {
                 // Required to complete auth, sets the access token on the session
