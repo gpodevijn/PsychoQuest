@@ -283,27 +283,6 @@ public class SeeParticipantResultsFragment extends Fragment {
                         mSelectedExperiment.getExperimentName()+"/" +
                         currentDateAndTime+"_"+
                         mParticipantName+".txt");
-
-       /* SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss", Locale.US);
-        String currentDateAndTime = sdf.format(new Date());
-
-        InputStream is = new ByteArrayInputStream(mParticipantResults.getBytes());
-
-        DropboxAPI.Entry response = null;
-        DropboxAPI<AndroidAuthSession> dbAPI = ((MainActivity)getActivity()).getDBApi();
-        try {
-            if (dbAPI == null) {
-                Log.e(TAG, "Error mdbapi is null");
-            }
-            response = dbAPI.putFile("/participant_results_backup/"+
-                            mSelectedExperiment.getExperimentName()+"/" +
-                            currentDateAndTime+"_"+
-                            mParticipantName+".txt", is,
-                    mParticipantResults.length(), null, null);
-        } catch (DropboxException e) {
-            e.printStackTrace();
-        }
-        Log.i("DbExampleLog", "The uploaded file's rev is: " + response.rev);*/
     }
 
 }

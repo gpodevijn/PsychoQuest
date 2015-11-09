@@ -179,26 +179,6 @@ public class ExperimentTerminatedFragment extends Fragment {
         Utils.saveOnSD(resultFilePath, mParticipantResults);
 
         mSaveSuccessfull.setText(getString(R.string.saved_sc_successfull));
-        /*SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss", Locale.US);
-        String currentDateAndTime = sdf.format(new Date());
-
-        String resultFilePath = Environment.getExternalStorageDirectory() +
-                "/PsychoQuest/experiment_results/" +
-                mExperimentName + "/" +
-                currentDateAndTime+"_"+mParticipantName+"_"+".txt";
-        File file = new File(resultFilePath);
-        file.getParentFile().mkdirs();
-
-        PrintWriter out = null;
-        try {
-            out = new PrintWriter(file);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        if (out != null)
-            out.println(mParticipantResults);
-
-        mSaveSuccessfull.setText(getString(R.string.saved_sc_successfull));*/
     }
 
     private void saveOnDropbox() {
@@ -211,23 +191,5 @@ public class ExperimentTerminatedFragment extends Fragment {
                         mExperimentName+"/" +
                         currentDateAndTime+"_"+
                         mParticipantName+".txt");
-
-        /*InputStream is = new ByteArrayInputStream(mParticipantResults.getBytes());
-
-        DropboxAPI.Entry response = null;
-        DropboxAPI<AndroidAuthSession> dbAPI = ((MainActivity)getActivity()).getDBApi();
-        try {
-            if (dbAPI == null) {
-                Log.e(TAG, "Error mdbapi is null");
-            }
-            response = dbAPI.putFile("/participant_results_backup/"+
-                            mExperimentName+"/" +
-                            currentDateAndTime+"_"+
-                            mParticipantName+".txt", is,
-                    mParticipantResults.length(), null, null);
-        } catch (DropboxException e) {
-            e.printStackTrace();
-        }
-        Log.i("DbExampleLog", "The uploaded file's rev is: " + response.rev);*/
     }
 }
