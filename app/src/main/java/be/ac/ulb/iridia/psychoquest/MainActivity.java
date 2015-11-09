@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity
 
         initNavigationDrawer();
         if (savedInstanceState == null) {
-            initDropbox();
             android.app.FragmentManager fragmentManager = getFragmentManager();
             FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             HomeFragment homeFragment = new HomeFragment();
