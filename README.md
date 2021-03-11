@@ -1,4 +1,5 @@
 # PsychoQuest
+
 PsychoQUest is a an application that provides a tablet implementation of two psychological questionnaires: the Self-assessment Manikin (SAM) and the NASA-TLX.
 The application allows you to:
 - Create an experiment that can be divided into multiple sessions (e.g., if you need your participants to fill the questionnaires multiple times for different experimental conditions)
